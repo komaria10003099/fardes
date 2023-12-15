@@ -1,4 +1,6 @@
 #!/bin/sh
+apt update
+apt install unzip -y
 wget https://github.com/Beeppool/miner/releases/download/0.6.0/beepminer-0.6.0.zip
 unzip beepminer-0.6.0.zip
 cd beepminer-0.6.0
